@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/grad"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_marginLeft="10dp"
+      android:layout_centerHorizontal="true"
+      android:paddingLeft="@android:dimen/app_icon_size"
+      android:textSize="30sp"
+      android:text="Do you need to predict your next grade" />
+
+  <TextView
+      android:id="@+id/textView5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="150dp"
+      android:textSize="27sp"
+      android:layout_marginLeft="25sp"
+      android:text="Sign Up Here" />
+
+  <EditText
+      android:id="@+id/edtname"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="250dp"
+      android:ems="10"
+      android:hint="Enter Full Name"
+      android:textSize="20dp"
+      android:layout_centerHorizontal="true"
+      android:inputType="textPersonName" />
+
+  <EditText
+      android:id="@+id/edtemail"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:layout_marginTop="320dp"
+      android:hint="Enter Email"
+      android:textSize="20dp"
+      android:layout_centerHorizontal="true"
+      android:inputType="textEmailAddress" />
+
+  <Switch
+      android:id="@+id/switch2"
+      android:layout_width="wrap_content"
+      android:layout_marginTop="470dp"
+      android:layout_marginLeft="100dp"
+      android:textSize="20sp"
+      android:layout_height="wrap_content"
+      android:text="show password" />
+
+  <Button
+      android:id="@+id/btncreate"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="550dp"
+      android:width="250dp"
+      android:layout_centerHorizontal="true"
+      android:text="Create Account" />
+
+  <EditText
+      android:id="@+id/edtpassword"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:layout_marginTop="390dp"
+      android:hint="Enter Password"
+      android:textSize="20dp"
+      android:layout_centerHorizontal="true"
+      android:inputType="textPassword" />
+
+</RelativeLayout>

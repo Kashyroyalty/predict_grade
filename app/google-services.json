@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "156300918970",
+    "project_id": "predict-your-grade",
+    "storage_bucket": "predict-your-grade.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156300918970:android:5791255c1a87ca293f0283",
+        "android_client_info": {
+          "package_name": "com.example.predict_your_grade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156300918970-alc2422sjhqqfvlua50beu7goqgk3bsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApMTvLPWcsS49owtQ9XDrB4z4m-VLFUeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156300918970-alc2422sjhqqfvlua50beu7goqgk3bsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
